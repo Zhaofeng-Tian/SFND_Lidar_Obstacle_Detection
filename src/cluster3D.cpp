@@ -57,7 +57,7 @@ std::vector<typename pcl::PointCloud<PointT>::Ptr> ClusterPts<PointT>::euclidClu
 
   for (int i=0; i<num_points; i++) {
     if (processed[i]) {
-      i++;
+      //i++;
       continue;
     }
 
